@@ -232,14 +232,14 @@ savingaccount.withdraw(20);
 
 function savebrowserhistory(){
 
-    var arr_url= [];
+    var arr_url234= [];
     var browserurl= location.hostname;
 var anotherurl = window.location.hostname;
     arr_url.push(browserurl);
 
   for (var i=0; i<arr_url.length; i++){
 
-    if (arr_url[i]==anotherurl){
+    if (arr_url234[i]==anotherurl){
 
     alert("your are browsing un secure websites");
     }
